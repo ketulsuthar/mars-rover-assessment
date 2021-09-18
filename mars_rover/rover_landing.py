@@ -11,4 +11,4 @@ class RoverLanding:
         self.end_head = DIRECTIONS[head]
 
     def __str__(self):
-        return f" Name : {self.name} \n ( {self.end_x, self.end_y, self.end_head})"
+        return f'Name : {self.name} \n ( {self.end_x, self.end_y, self.end_head})'
