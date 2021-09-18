@@ -11,5 +11,5 @@ Interview Code Assessment
 
 ### Run Unittest
 
-1. cd mars-rover-assessmen
+1. cd mars-rover-assessment
 2. python3 -m unittest discover tests/
