@@ -1,4 +1,3 @@
-from .config import VALID_COMMANDS
 from .config import DIRECTIONS
 
 
@@ -11,7 +10,7 @@ class Command:
         '''
         It will spin rover 90 degrees left
         :param current_pos: Current position of rover
-        :return:
+        :return: none
         '''
         head = current_pos.end_head - 1
         if head < DIRECTIONS['N']:
@@ -23,7 +22,7 @@ class Command:
         '''
         It will spin rover 90 degrees right
         :param current_pos: Current position of rover
-        :return:
+        :return: None
         '''
         head = current_pos.end_head  + 1
         if head > DIRECTIONS['W']:
@@ -35,7 +34,7 @@ class Command:
         '''
         It will move rover forward one grid point.
         :param current_pos: Current position of rover
-        :return:
+        :return: none
         '''
         if self.plateau.validate_move(current_pos):
             if current_pos.end_head == DIRECTIONS['N']:
@@ -50,6 +49,11 @@ class Command:
             print('Invalid move')
 
     def do_command(self, command, current_pos):
+        '''It will execute command to rover
+        :param command: Command execute to rover
+        :param current_pos: current position of rover
+        :return: None
+        '''
         if command.upper() == "L":
              self.move_left(current_pos)
         if command.upper() == "R":

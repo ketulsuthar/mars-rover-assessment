@@ -5,6 +5,10 @@ class FileParser:
         self.rovers = []
 
     def parsers(self):
+        '''
+        It will parse the input file.
+        :return: None
+        '''
         with open(self.filename, 'r') as f:
             lines = f.readlines()
             r = {}

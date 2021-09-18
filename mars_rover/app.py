@@ -6,6 +6,11 @@ from .file_parser import FileParser
 
 
 def main(file_name):
+    '''
+    Entry point of application
+    :param file_name: input file
+    :return: none
+    '''
     try:
         file_parser = FileParser(file_name)
         file_parser.parsers()
