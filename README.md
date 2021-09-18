@@ -12,12 +12,13 @@ Interview Code Assessment
 1. mkdir my_app
 2. cd my_app
 3. python3.7 -m virtualenv app
-4. clone repo
-5. cd mars-rover-assessment
-6. pip install -r requirement.txt
-7. python setup.py bdist_wheel
-8. pip install dist/app-0.0.1-py3-none-any.whl
-9. app --filename input.txt
+4. source app/bin/activate
+5. clone repo
+6. cd mars-rover-assessment
+7. pip install -r requirement.txt
+8. python setup.py bdist_wheel
+9. pip install dist/app-0.0.1-py3-none-any.whl
+10. app --filename input.txt
 
 ### Run Unittest
 
