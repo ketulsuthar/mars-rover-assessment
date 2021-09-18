@@ -3,7 +3,6 @@
 if [ "$#" -eq 1 ]
 then
     file=$1
-
     pip3.7 install virtualenv > /dev/null 2>&1
     python3.7 -m virtualenv appv > /dev/null 2>&1
     source appv/bin/activate > /dev/null 2>&1
