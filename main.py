@@ -5,6 +5,7 @@ from mars_rover import RoverLanding
 from mars_rover import Rover
 from mars_rover import FileParser
 
+
 def main(file_name):
     try:
         file_parser = FileParser(file_name)
@@ -18,10 +19,12 @@ def main(file_name):
                 rover['head'],
             )
             f_rover = Rover(plateau, rover_landing)
-            rover.rover_processing(rover['command'])
+            f_rover.rover_processing(rover['command'])
             print(f_rover)
+
     except Exception as err:
         print(err)
+
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
@@ -31,5 +34,4 @@ if __name__ == '__main__':
         if os.path.exists(file_name):
             main(file_name)
         else:
-            pass
-            # print(f'{file_name} does not exist.')
+            print(f'{file_name} does not exist.')
