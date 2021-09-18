@@ -1,5 +1,5 @@
 import unittest
-from mars_rover import *
+from mars_rover import RoverLanding
 
 class TestRoverLanding(unittest.TestCase):
 
