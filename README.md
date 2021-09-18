@@ -4,20 +4,20 @@ Interview Code Assessment
 ### Step for run app:
 
 ### Check Python==3.7 installed
-- sudo apt-get install python3-pip python3-dev
-- sudo apt-get install python3.7
-- sudo apt install python3-pip
+1. sudo apt-get install python3-pip python3-dev
+2. sudo apt-get install python3.7
+3. sudo apt install python3-pip
 
 ### Create virtual environment
-- mkdir my_app
-- cd my_app
-- python3.7 -m virtualenv app
-- clone repo
-- cd mars-rover-assessment
-- pip install -r requirement.txt
-- python setup.py bdist_wheel
-- pip install dist/app-0.0.1-py3-none-any.whl
-- app --filename input.txt
+1. mkdir my_app
+2. cd my_app
+3. python3.7 -m virtualenv app
+4. clone repo
+5. cd mars-rover-assessment
+6. pip install -r requirement.txt
+7. python setup.py bdist_wheel
+8. pip install dist/app-0.0.1-py3-none-any.whl
+9. app --filename input.txt
 
 ### Run Unittest
 
