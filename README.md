@@ -1,7 +1,7 @@
 # mars-rover-assessment
 Interview Code Assessment
 
-## Step for run app:
+### Step for run app:
 
 1. First clone repo.
 2. cd mars-rover-assessment
@@ -9,7 +9,7 @@ Interview Code Assessment
 4. ./app.sh input.txt
 
 
-## Run Unittest
+### Run Unittest
 
 1. cd mars-rover-assessmen
 2. python3 -m unittest discover tests/
