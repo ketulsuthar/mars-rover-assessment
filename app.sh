@@ -12,7 +12,6 @@ then
     pip install dist/app-0.0.1-py3-none-any.whl > /dev/null 2>&1
     app --filename "$file"
     rm -rf appv
-    rm -rf dist
 else
     echo "Please provide input file. it should not more that one."
 fi
