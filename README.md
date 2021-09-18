@@ -21,6 +21,14 @@ Interview Code Assessment
 10. pip install dist/app-0.0.1-py3-none-any.whl
 11. app --filename input.txt
 
+### ---------- OR ----------------
+1. mkdir my_app
+2. cd my_app
+3. clone repo
+4. cd mars-rover-assessmen
+5. chmod 755 app.sh
+6. ./app.sh input.txt
+
 ### Run Unittest
 
 1. cd mars-rover-assessment
