@@ -1,6 +1,3 @@
-# python package
-import os
-import sys
 # local package
 from .plateau import Plateau
 from .rover_landing import RoverLanding
