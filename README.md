@@ -4,9 +4,9 @@ Interview Code Assessment
 ### Step for run app:
 
 ### Check Python==3.7 installed
-sudo apt-get install python3-pip python3-dev
-sudo apt-get install python3.7
-sudo apt install python3-pip
+- sudo apt-get install python3-pip python3-dev
+- sudo apt-get install python3.7
+- sudo apt install python3-pip
 
 ### Create virtual environment
 - mkdir my_app
