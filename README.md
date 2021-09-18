@@ -8,7 +8,7 @@ Interview Code Assessment
 2. sudo apt-get install python3.7
 3. sudo apt install python3-pip
 
-### Create virtual environment
+### Create virtual environment and run app
 1. mkdir my_app
 2. cd my_app
 3. python3.7 -m virtualenv app
