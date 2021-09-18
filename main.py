@@ -31,4 +31,5 @@ if __name__ == '__main__':
         if os.path.exists(file_name):
             main(file_name)
         else:
-            print(f'{file_name} does not exist.')
+            pass
+            # print(f'{file_name} does not exist.')
