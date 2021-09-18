@@ -8,17 +8,18 @@ Interview Code Assessment
 2. sudo apt-get install python3.7
 3. sudo apt install python3-pip
 
-### Create virtual environment
+### Create virtual environment and run app
 1. mkdir my_app
 2. cd my_app
-3. python3.7 -m virtualenv app
-4. source app/bin/activate
-5. clone repo
-6. cd mars-rover-assessment
-7. pip install -r requirement.txt
-8. python setup.py bdist_wheel
-9. pip install dist/app-0.0.1-py3-none-any.whl
-10. app --filename input.txt
+3. pip3.7 install virtualenv
+4. python3.7 -m virtualenv app
+5. source app/bin/activate
+6. clone repo
+7. cd mars-rover-assessment
+8. pip install -r requirement.txt
+9. python setup.py bdist_wheel
+10. pip install dist/app-0.0.1-py3-none-any.whl
+11. app --filename input.txt
 
 ### Run Unittest
 
