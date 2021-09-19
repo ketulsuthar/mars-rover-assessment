@@ -26,8 +26,7 @@ Interview Code Assessment
 2. cd my_app
 3. clone repo
 4. cd mars-rover-assessment
-5. chmod 755 app.sh
-6. ./app.sh input.txt
+6. ./app_mac.sh input.txt -> Mac  or ./app_ubuntu.sh input.txt -> Ubuntu
 
 ### Run Unittest
 
