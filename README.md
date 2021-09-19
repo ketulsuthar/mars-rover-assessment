@@ -25,7 +25,7 @@ Interview Code Assessment
 1. mkdir my_app
 2. cd my_app
 3. clone repo
-4. cd mars-rover-assessmen
+4. cd mars-rover-assessmenT
 5. chmod 755 app.sh
 6. ./app.sh input.txt
 
